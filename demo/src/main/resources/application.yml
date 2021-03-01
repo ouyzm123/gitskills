@@ -1,0 +1,19 @@
+spring :
+  profiles:
+    active: dev
+xxl:
+  ### xxl-job admin address list, such as "http://address" or "http://address01,http://address02"
+  job:
+    admin:
+      addresses: http://121.196.168.213:8000/
+    ### xxl-job executor address
+    executor:
+      appname: demo
+      ip:
+      port: 9021
+      ### xxl-job log path
+      logpath: log/jobhandler
+      ### xxl-job log retention days
+      logretentiondays: -1
+    ### xxl-job, access token
+    accessToken:
